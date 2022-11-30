@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { Navbar, Footer } from '../components/global/index';
-import { Main } from '../components/home/index';
+import { Main } from '../components/projects/index';
 
-export default function Home() {
+export default function Projects() {
   return (
     <div className="bg-slate-50 min-h-screen min-w-screen">
       <Head>
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
+      <Navbar selected="Projects"/>
       <Main />
       <Footer />
     </div>

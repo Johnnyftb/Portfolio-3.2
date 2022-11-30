@@ -1,0 +1,174 @@
+[
+    {
+        "id": 1,
+        "project_name": "Shinzo",
+        "image_path": "/assets/projects/shinzo.svg",
+        "description": "I developed the website and mint dapp for Shinzo, an anime-art themed NFT collection.",
+        "work": "Website & Mint Dapp",
+        "links": {
+            "website": "https://shinzonft.io/"
+        },
+        "tags": [
+            "all",
+            "frontend",
+            "blockchain"
+        ]
+    },
+    {
+        "id": 2,
+        "project_name": "Black Dust",
+        "image_path": "/assets/projects/blackdust.svg",
+        "description": "I audited Black Dust's Minting Smart Contract in consideration to security and useability. The contracts allowed users to mint, refund, burn and stake NFTs.",
+        "work": "Smart Contract Audit",
+        "links": {
+            "report": "https://drive.google.com/file/d/1YKJ0FyOmQ_jI5oqomjhSJGqApSoD8g0E/view?usp=sharing"
+        },
+        "tags": [
+            "all",
+            "blockchain"
+        ]
+    },
+    {
+        "id": 3,
+        "project_name": "Pixel Puppers",
+        "image_path": "/assets/projects/pixel-puppers-banner.svg",
+        "description": "I developed an NFT minting smart contract for Pixel Puppers, an NFT project. Using ERC-721A & Merkle Trees, I optimised the contract for gas fees. I also ran extensive testing to make sure the contract worked as intended.",
+        "work": "Smart Contract",
+        "links": {
+            "source_code": "https://github.com/Johnnyftb/Pixel-Puffers-Smart-Contract"
+        },
+        "tags": [
+            "all",
+            "blockchain"
+        ]
+    },
+    {
+        "id": 4,
+        "project_name": "HustleFam",
+        "image_path": "/assets/projects/hustlefam.svg",
+        "description": "I developed a Smart Contract and Minting Dapp for HustleFam, a small NFT collection of 247.",
+        "work": "Mint Dapp & Smart Contract",
+        "links": {},
+        "tags": [
+            "all",
+            "frontend",
+            "blockchain"
+        ]
+    },
+    {
+        "id": 5,
+        "project_name": "NFT Utility",
+        "image_path": "/assets/projects/nft-utility.svg",
+        "description": "I built NFT Utility / lity.gg, a platform to display NFT collection analytics for traders and NFT-ethusiasts. It is simply a CRUD app that displays data from curated collections from a database into a React application.",
+        "work": "CRUD App",
+        "links": {
+            "source_code": "https://github.com/Johnnyftb/NFT-Utility-Public"
+        },
+        "tags": [
+            "all",
+            "frontend",
+            "backend"
+        ]
+    },
+    {
+        "id": 6,
+        "project_name": "Abstract Realm",
+        "image_path": "/assets/projects/abstract-realm.svg",
+        "description": "I was the lead developer for Abstract Realm, an NFT project. Working closely with the team, I built the project website and provided advice for the project in terms of development.",
+        "work": "Lead Developer",
+        "links": {
+            "website": "https://abstractrealm.io/"
+        },
+        "tags": [
+            "all",
+            "frontend"
+        ]
+    },
+    {
+        "id": 7,
+        "project_name": "Gen-1 Avatars",
+        "image_path": "/assets/projects/gen-1-avatars.svg",
+        "description": "I wrote an audit report for the Gen-1 Avatars Smart Contract. I evaluated the contract and tests in terms of security, decentralization and useability.",
+        "work": "Audit Report",
+        "links": {
+            "report": "https://drive.google.com/file/d/1gdKBean-JYqi_Nezf2z9UtOg9S1HMEHi/view?usp=sharing"
+        },
+        "tags": [
+            "all",
+            "blockchain"
+        ]
+    },
+    {
+        "id": 8,
+        "project_name": "Mysterium",
+        "image_path": "/assets/projects/mysterium.svg",
+        "description": "I built the Minting Dapp and Smart Contract for Mysterium, an NFT collection.",
+        "work": "Mint Dapp & Smart Contract",
+        "links": {
+            "source_code": "https://github.com/Johnnyftb/Mysterium"
+        },
+        "tags": [
+            "all",
+            "frontend",
+            "blockchain"
+        ]
+    },
+    {
+        "id": 9,
+        "project_name": "NFT Minting Contract",
+        "image_path": "/assets/projects/nft-minting-contract.svg",
+        "description": "I've shared my NFT Minting contract that I've used for the projects I've worked on in the past. The contract allows users to interact with the blockchain and mint ERC721 token standard NFTs. Furthermore, the contract focuses on functionality with extensive unit testing, and gas-optimisation by using tools such as merkle proofs and gas-optimisation fundamentals.",
+        "work": "Practice Project",
+        "links": {
+            "source_code": "https://github.com/Johnnyftb/Johns-ERC721A-Smart-Contract"
+        },
+        "tags": [
+            "all",
+            "blockchain"
+        ]
+    },
+    {
+        "id": 10,
+        "project_name": "NFT Minting Dapp",
+        "image_path": "/assets/projects/nft-minting-dapp.svg",
+        "description": "I built an NFT minting dapp where users can mint NFTs from the Johnny collection on the Rinkeby Testnet Ethereum Blockchain.",
+        "work": "Practice Project",
+        "links": {
+            "source_code": "https://github.com/Johnnyftb/NFT-Minting-Dapp-2.0"
+        },
+        "tags": [
+            "all",
+            "frontend",
+            "blockchain"
+        ]
+    },
+    {
+        "id": 11,
+        "project_name": "MERN Task Manager App",
+        "image_path": "/assets/projects/task-manager-app.svg",
+        "description": "I built a simple CRUD task manager app using the MERN stack. In this app, users are able to view their tasks, create new tasks, update and delete them.",
+        "work": "Practice Project",
+        "links": {
+            "source_code": "https://github.com/Johnnyftb/MERN-Task-Manager-App"
+        },
+        "tags": [
+            "all",
+            "frontend",
+            "backend"
+        ]
+    },
+    {
+        "id": 12,
+        "project_name": "Apple Website Clone",
+        "image_path": "/assets/projects/apple-website-clone.svg",
+        "description": "I built an exact clone of the Apple website homepage from scratch through technologies such as React.js, Bootstrap and vanilla CSS.",
+        "work": "Practice Project",
+        "links": {
+            "source_code": "https://github.com/Johnnyftb/Apple-Website-Clone"
+        },
+        "tags": [
+            "all",
+            "frontend"
+        ]
+    }
+]
