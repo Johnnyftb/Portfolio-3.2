@@ -1,13 +1,13 @@
 import React from 'react'
 import projectsData from '../../projects.json';
 
-const Blockchain = () => {
+const Blockchain = ({ openModal }) => {
     const projects = projectsData.filter(item => item.tags.includes("blockchain"));
 
     return (
         <div className="w-full grid grid-cols-3 fade-in">
             {projects.map(item => (
-                <div className="relative rounded-lg m-4 shadow-xl col-span-3 lg:col-span-1">
+                <div className="relative rounded-lg m-4 shadow-xl col-span-3 lg:col-span-1" onClick={() => openModal(item.id)}>
                     <div className="relative top-0 left-0 z-40">
                         <img src={item.image_path} alt="" className="h-full w-full rounded-lg shadow-xl"/>
                     </div>

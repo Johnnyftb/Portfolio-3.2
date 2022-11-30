@@ -4,18 +4,26 @@ import Frontend from './Frontend';
 import Backend from './Backend';
 import Blockchain from './Blockchain';
 import ProjectModal from './ProjectModal';
-
-const projectCategories = [
-    <All />,
-    <Frontend />,
-    <Backend />,
-    <Blockchain />
-]
+import projectData from '../../projects.json';
 
 const Main = () => {
 
     const [category, setCategory] = React.useState(0);
     const [project, setProject] = React.useState();
+
+    const openModal = (id) => {
+        const openProject = projectData.filter(item => item.id === id);
+        setProject(openProject[0]);
+    }
+
+    const projectCategories = [
+        <All openModal={openModal}/>,
+        <Frontend openModal={openModal} />,
+        <Backend openModal={openModal} />,
+        <Blockchain openModal={openModal} />
+    ]
+
+    console.log(project);
 
     return (
         <main className='min-h-[60vh] fade-in'>
@@ -30,6 +38,9 @@ const Main = () => {
                     {projectCategories[category]}
                 </div>
             </div>
+
+
+            {project && <ProjectModal project={project} setProject={setProject}/>}
         </main>
     )
 }
