@@ -34,9 +34,7 @@
         "image_path": "/assets/projects/pixel-puppers-banner.svg",
         "description": "I developed an NFT minting smart contract for Pixel Puppers, an NFT project. Using ERC-721A & Merkle Trees, I optimised the contract for gas fees. I also ran extensive testing to make sure the contract worked as intended.",
         "work": "Smart Contract",
-        "links": {
-            "source_code": "https://github.com/Johnnyftb/Pixel-Puffers-Smart-Contract"
-        },
+        "links": {},
         "tags": [
             "all",
             "blockchain"
@@ -61,9 +59,7 @@
         "image_path": "/assets/projects/nft-utility.svg",
         "description": "I built NFT Utility / lity.gg, a platform to display NFT collection analytics for traders and NFT-ethusiasts. It is simply a CRUD app that displays data from curated collections from a database into a React application.",
         "work": "CRUD App",
-        "links": {
-            "source_code": "https://github.com/Johnnyftb/NFT-Utility-Public"
-        },
+        "links": {},
         "tags": [
             "all",
             "frontend",
@@ -104,9 +100,7 @@
         "image_path": "/assets/projects/mysterium.svg",
         "description": "I built the Minting Dapp and Smart Contract for Mysterium, an NFT collection.",
         "work": "Mint Dapp & Smart Contract",
-        "links": {
-            "source_code": "https://github.com/Johnnyftb/Mysterium"
-        },
+        "links": {},
         "tags": [
             "all",
             "frontend",
@@ -115,60 +109,17 @@
     },
     {
         "id": 9,
-        "project_name": "NFT Minting Contract",
-        "image_path": "/assets/projects/nft-minting-contract.svg",
-        "description": "I've shared my NFT Minting contract that I've used for the projects I've worked on in the past. The contract allows users to interact with the blockchain and mint ERC721 token standard NFTs. Furthermore, the contract focuses on functionality with extensive unit testing, and gas-optimisation by using tools such as merkle proofs and gas-optimisation fundamentals.",
-        "work": "Practice Project",
-        "links": {
-            "source_code": "https://github.com/Johnnyftb/Johns-ERC721A-Smart-Contract"
-        },
-        "tags": [
-            "all",
-            "blockchain"
-        ]
-    },
-    {
-        "id": 10,
-        "project_name": "NFT Minting Dapp",
-        "image_path": "/assets/projects/nft-minting-dapp.svg",
-        "description": "I built an NFT minting dapp where users can mint NFTs from the Johnny collection on the Rinkeby Testnet Ethereum Blockchain.",
-        "work": "Practice Project",
-        "links": {
-            "source_code": "https://github.com/Johnnyftb/NFT-Minting-Dapp-2.0"
-        },
-        "tags": [
-            "all",
-            "frontend",
-            "blockchain"
-        ]
-    },
-    {
-        "id": 11,
         "project_name": "MERN Task Manager App",
         "image_path": "/assets/projects/task-manager-app.svg",
         "description": "I built a simple CRUD task manager app using the MERN stack. In this app, users are able to view their tasks, create new tasks, update and delete them.",
-        "work": "Practice Project",
+        "work": "Personal Project",
         "links": {
-            "source_code": "https://github.com/Johnnyftb/MERN-Task-Manager-App"
+            "source_code": "https://github.com/Johnnyftb/MERN-Task-Manager"
         },
         "tags": [
             "all",
             "frontend",
             "backend"
-        ]
-    },
-    {
-        "id": 12,
-        "project_name": "Apple Website Clone",
-        "image_path": "/assets/projects/apple-website-clone.svg",
-        "description": "I built an exact clone of the Apple website homepage from scratch through technologies such as React.js, Bootstrap and vanilla CSS.",
-        "work": "Practice Project",
-        "links": {
-            "source_code": "https://github.com/Johnnyftb/Apple-Website-Clone"
-        },
-        "tags": [
-            "all",
-            "frontend"
         ]
     }
 ]
